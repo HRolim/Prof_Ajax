@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="imagens/helloworld.png" alt="" width="900">
+        <p>
+            Meu nome é professor Ajax, e eu ofereço aulas de programação, com foco nas seguintes linguagens: Python, Java, C# e R
+        </p>
+    </header>
+    <ol>
+        <li> <a href="index.html" >Home</a></li>
+        <li> <a href="music.html">Músicas para programação</a></li>
+        <li> <a href="class.html">Aulas</a></li>
+        <li> <a href="contact.html">Contato</a></li>
+    </ol>
+    <section>
+        <article>
+            <h2>Venha fazer uma aula experimental comigo</h2>
+            <form method="get" action="">
+                <strong>Nome:</strong>
+                <input type="text" name="txtname" required pattern="[A-Za-z]+" title="Exigimos um nome com mais de 3 caracteres"><br>
+
+                <strong>E-mail:</strong>
+                <input type="email" name="txtemail" required ><br>
+
+                <strong>Disciplinas</strong><br>
+                <input type="checkbox" name="dis" value="d1">Python<br>
+                <input type="checkbox" name="dis" value="d2">Java<br>
+                <input type="checkbox" name="dis" value="d3">C#<br>
+                <input type="checkbox" name="dis" value="d4">R<br>
+        
+                <strong>Cidade:</strong><br>
+                <select name="city" >
+                    <option value="" hidden>Selecione um item</option>
+                    <option value="c1">São Paulo</option>
+                    <option value="c2">Rio de Janeiro</option>
+                    <option value="c3">Belo Horizonte</option>
+                </select><br>
+        
+                <strong>Mensagem:</strong><br>
+                <textarea name="msg" cols="30" rows="5"></textarea><br>
+        
+                <button>Enviar</button>
+            </form>
+        </article>
+    </section>
+    <footer>
+        <h3>Prof - Ajax</h3>
+    </footer>
+</body>
