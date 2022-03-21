@@ -22,10 +22,13 @@
             <h2>Venha fazer uma aula experimental comigo</h2>
             <form method="get" action="">
                 <strong>Nome:</strong>
-                <input type="text" name="txtname" required pattern="[A-Za-z]+" title="Exigimos um nome com mais de 3 caracteres"><br>
+                <input type="text" name="txtname" required><br>
 
                 <strong>E-mail:</strong>
                 <input type="email" name="txtemail" required ><br>
+
+                <strong>Celular</strong>
+                <input type="numbers" name="numbers" required> <br>
 
                 <strong>Disciplinas</strong><br>
                 <input type="checkbox" name="dis" value="d1">Python<br>
@@ -40,9 +43,6 @@
                     <option value="c2">Rio de Janeiro</option>
                     <option value="c3">Belo Horizonte</option>
                 </select><br>
-        
-                <strong>Mensagem:</strong><br>
-                <textarea name="msg" cols="30" rows="5"></textarea><br>
         
                 <button>Enviar</button>
             </form>
